@@ -1,8 +1,8 @@
 <?php
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$db = "foodzone";
+	$servername = "br-cdbr-azure-south-a.cloudapp.net";
+	$username = "b22d98438a9ac7";
+	$password = "689854fb";
+	$db = "usersdrinkreminder";
 
 	$mysqli = mysqli_connect($servername, $username, $password, $db);
 
@@ -10,7 +10,7 @@
 	if (!$mysqli){
 		die("failed". mysqli_connect_error());
 	}else{
-		echo "success";
+		//echo "success";
 	}
 
 	//creat database
